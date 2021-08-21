@@ -517,13 +517,13 @@
       "Guide": {
         "required": [
           "id",
-          "Content"
+          "content"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "Content": {
+          "content": {
             "type": "string"
           },
           "title": {
@@ -604,13 +604,13 @@
             "items": {
               "required": [
                 "id",
-                "Content"
+                "content"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
-                "Content": {
+                "content": {
                   "type": "string"
                 },
                 "title": {
@@ -654,10 +654,10 @@
       },
       "NewGuide": {
         "required": [
-          "Content"
+          "content"
         ],
         "properties": {
-          "Content": {
+          "content": {
             "type": "string"
           },
           "title": {
