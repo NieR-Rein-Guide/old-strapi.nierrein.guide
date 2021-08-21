@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fan-contents",
+      "handler": "fan-content.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fan-contents/count",
+      "handler": "fan-content.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fan-contents/:id",
+      "handler": "fan-content.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fan-contents",
+      "handler": "fan-content.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fan-contents/:id",
+      "handler": "fan-content.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fan-contents/:id",
+      "handler": "fan-content.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
