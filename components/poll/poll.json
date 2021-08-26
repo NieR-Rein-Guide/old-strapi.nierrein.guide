@@ -2,7 +2,8 @@
   "collectionName": "components_poll_polls",
   "info": {
     "name": "Poll",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
