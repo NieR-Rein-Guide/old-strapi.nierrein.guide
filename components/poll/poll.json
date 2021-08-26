@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_poll_polls",
+  "info": {
+    "name": "Poll",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "embed": {
+      "type": "text"
+    }
+  }
+}

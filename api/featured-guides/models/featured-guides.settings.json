@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_guides",
+  "info": {
+    "name": "Featured guides"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "guides": {
+      "collection": "guide"
+    }
+  }
+}

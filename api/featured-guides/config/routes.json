@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/featured-guides",
+      "handler": "featured-guides.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/featured-guides",
+      "handler": "featured-guides.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/featured-guides",
+      "handler": "featured-guides.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
