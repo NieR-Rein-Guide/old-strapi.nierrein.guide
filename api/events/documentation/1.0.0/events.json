@@ -622,6 +622,9 @@
               }
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -650,6 +653,9 @@
                 },
                 "poll": {
                   "type": "component"
+                },
+                "slug": {
+                  "type": "string"
                 },
                 "localizations": {
                   "type": "array",
@@ -710,6 +716,9 @@
                 "type": "string"
               }
             }
+          },
+          "slug": {
+            "type": "string"
           },
           "localizations": {
             "type": "array",
