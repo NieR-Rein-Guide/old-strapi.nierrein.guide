@@ -32,6 +32,17 @@
     },
     "is_approved": {
       "type": "boolean"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "art",
+        "video",
+        "text"
+      ]
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

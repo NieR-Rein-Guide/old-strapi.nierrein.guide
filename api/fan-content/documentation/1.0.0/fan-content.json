@@ -611,6 +611,17 @@
           "is_approved": {
             "type": "boolean"
           },
+          "type": {
+            "type": "string",
+            "enum": [
+              "art",
+              "video",
+              "text"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -627,6 +638,17 @@
           },
           "is_approved": {
             "type": "boolean"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "art",
+              "video",
+              "text"
+            ]
+          },
+          "title": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
