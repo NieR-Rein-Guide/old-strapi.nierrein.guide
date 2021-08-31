@@ -17,6 +17,7 @@
     "strapi": "3.6.7",
     "strapi-admin": "3.6.7",
     "strapi-connector-bookshelf": "3.6.7",
+    "strapi-plugin-ckeditor5": "^1.13.0",
     "strapi-plugin-content-manager": "3.6.7",
     "strapi-plugin-content-type-builder": "3.6.7",
     "strapi-plugin-documentation": "^3.6.7",
