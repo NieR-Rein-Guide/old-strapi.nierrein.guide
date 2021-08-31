@@ -602,6 +602,9 @@
           "author": {
             "type": "string"
           },
+          "description": {
+            "type": "string"
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -626,6 +629,9 @@
                   "type": "string"
                 },
                 "author": {
+                  "type": "string"
+                },
+                "description": {
                   "type": "string"
                 },
                 "localizations": {
@@ -673,6 +679,9 @@
             "type": "string"
           },
           "author": {
+            "type": "string"
+          },
+          "description": {
             "type": "string"
           },
           "localizations": {

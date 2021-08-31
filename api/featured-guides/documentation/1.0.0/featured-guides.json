@@ -349,6 +349,9 @@
                 "author": {
                   "type": "string"
                 },
+                "description": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
