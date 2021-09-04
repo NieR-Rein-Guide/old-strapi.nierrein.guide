@@ -352,6 +352,9 @@
                 "description": {
                   "type": "string"
                 },
+                "thumbnail": {
+                  "type": "string"
+                },
                 "localizations": {
                   "type": "array",
                   "items": {
