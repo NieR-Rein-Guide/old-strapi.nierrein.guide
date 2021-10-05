@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_qa_q_as",
+  "info": {
+    "name": "Q/A",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}
