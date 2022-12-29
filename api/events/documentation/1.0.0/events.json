@@ -625,6 +625,18 @@
           "slug": {
             "type": "string"
           },
+          "Type": {
+            "type": "string",
+            "enum": [
+              "record",
+              "premium_summons",
+              "weekly_summons",
+              "monthly_summons",
+              "abyss_tower",
+              "variation",
+              "anecdote"
+            ]
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -656,6 +668,18 @@
                 },
                 "slug": {
                   "type": "string"
+                },
+                "Type": {
+                  "type": "string",
+                  "enum": [
+                    "record",
+                    "premium_summons",
+                    "weekly_summons",
+                    "monthly_summons",
+                    "abyss_tower",
+                    "variation",
+                    "anecdote"
+                  ]
                 },
                 "localizations": {
                   "type": "array",
@@ -719,6 +743,18 @@
           },
           "slug": {
             "type": "string"
+          },
+          "Type": {
+            "type": "string",
+            "enum": [
+              "record",
+              "premium_summons",
+              "weekly_summons",
+              "monthly_summons",
+              "abyss_tower",
+              "variation",
+              "anecdote"
+            ]
           },
           "localizations": {
             "type": "array",

@@ -83,6 +83,23 @@
       },
       "type": "string",
       "unique": true
+    },
+    "Type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "record",
+        "premium_summons",
+        "weekly_summons",
+        "monthly_summons",
+        "abyss_tower",
+        "variation",
+        "anecdote"
+      ]
     }
   }
 }
