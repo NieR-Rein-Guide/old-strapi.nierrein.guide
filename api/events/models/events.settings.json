@@ -100,6 +100,15 @@
         "variation",
         "anecdote"
       ]
+    },
+    "gems": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer",
+      "default": 0
     }
   }
 }

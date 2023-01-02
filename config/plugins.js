@@ -11,4 +11,10 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  graphql: {
+    config: {
+      defaultLimit: 999,
+      maxLimit: 9999,
+    }
+  }
 });

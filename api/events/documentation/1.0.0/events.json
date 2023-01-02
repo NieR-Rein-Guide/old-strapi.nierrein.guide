@@ -637,6 +637,10 @@
               "anecdote"
             ]
           },
+          "gems": {
+            "type": "integer",
+            "default": 0
+          },
           "localizations": {
             "type": "array",
             "items": {
@@ -680,6 +684,9 @@
                     "variation",
                     "anecdote"
                   ]
+                },
+                "gems": {
+                  "type": "integer"
                 },
                 "localizations": {
                   "type": "array",
@@ -755,6 +762,10 @@
               "variation",
               "anecdote"
             ]
+          },
+          "gems": {
+            "type": "integer",
+            "default": 0
           },
           "localizations": {
             "type": "array",
