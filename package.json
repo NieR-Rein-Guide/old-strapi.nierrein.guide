@@ -12,6 +12,7 @@
   "dependencies": {
     "knex": "0.21.18",
     "pg": "^8.6.0",
+    "react-error-boundary": "^3.1.4",
     "react-query": "^3.39.2",
     "slugify": "^1.6.0",
     "strapi": "^3.6.11",
